@@ -1,0 +1,40 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "status": "researching",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin aliquet turpis, et vulputate risus semper quis. Sed nec mollis ipsum, id facilisis nisl. Nam porttitor, quam aliquet ultrices vulputate, lorem tortor molestie urna, et accumsan eros odio vitae ex. Sed luctus ultricies orci in tincidunt. Duis urna ante, ornare et dapibus eu, ornare id dui. Maecenas placerat risus sit amet arcu dignissim lacinia. Sed in massa eu nulla feugiat iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim mauris, tempor nec dignissim ac, pellentesque rhoncus mauris. Pellentesque a accumsan diam. Morbi faucibus nisl nec mattis consectetur.",
+      "performance": "100% YoY Growth",
+      "contact": {
+        "name": "Sue Storm"
+      }
+    },
+    {
+      "id": "2",
+      "status": "pending approval",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin aliquet turpis, et vulputate risus semper quis. Sed nec mollis ipsum, id facilisis nisl. Nam porttitor, quam aliquet ultrices vulputate, lorem tortor molestie urna, et accumsan eros odio vitae ex. Sed luctus ultricies orci in tincidunt. Duis urna ante, ornare et dapibus eu, ornare id dui. Maecenas placerat risus sit amet arcu dignissim lacinia. Sed in massa eu nulla feugiat iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim mauris, tempor nec dignissim ac, pellentesque rhoncus mauris. Pellentesque a accumsan diam. Morbi faucibus nisl nec mattis consectetur.",
+      "performance": "Strong KPI",
+      "contact": {
+        "name": "Peter Parker"
+      }
+    },
+    {
+      "id": "3",
+      "status": "approved",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin aliquet turpis, et vulputate risus semper quis. Sed nec mollis ipsum, id facilisis nisl. Nam porttitor, quam aliquet ultrices vulputate, lorem tortor molestie urna, et accumsan eros odio vitae ex. Sed luctus ultricies orci in tincidunt. Duis urna ante, ornare et dapibus eu, ornare id dui. Maecenas placerat risus sit amet arcu dignissim lacinia. Sed in massa eu nulla feugiat iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim mauris, tempor nec dignissim ac, pellentesque rhoncus mauris. Pellentesque a accumsan diam. Morbi faucibus nisl nec mattis consectetur.",
+      "performance": "200% Growth in the last year",
+      "contact": {
+        "name": "Lois Lane"
+      }
+    },
+    {
+      "id": "4",
+      "status": "declined",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin aliquet turpis, et vulputate risus semper quis. Sed nec mollis ipsum, id facilisis nisl. Nam porttitor, quam aliquet ultrices vulputate, lorem tortor molestie urna, et accumsan eros odio vitae ex. Sed luctus ultricies orci in tincidunt. Duis urna ante, ornare et dapibus eu, ornare id dui. Maecenas placerat risus sit amet arcu dignissim lacinia. Sed in massa eu nulla feugiat iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim mauris, tempor nec dignissim ac, pellentesque rhoncus mauris. Pellentesque a accumsan diam. Morbi faucibus nisl nec mattis consectetur.",
+      "performance": "Down Market Buy",
+      "contact": {
+        "name": "Victor Von Doom"
+      }
+    }
+  ]
+}
