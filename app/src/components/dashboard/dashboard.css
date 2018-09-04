@@ -5,16 +5,27 @@
     min-height: 100vh;
 }
 
-.header--dashboard.wrapper {
+.header--dashboard {
     background-color: var(--white);
+    box-shadow: 0 1px 1px 0 rgba(153,153,153,0.7);
+    margin-bottom: 0.4rem;
+    padding: 0 1rem 1rem;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
+.header--dashboard .wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .dashboard .title--page {
-    margin: 0 auto;
+    margin: 0;
     padding: 1rem 1rem 0;
+    width: 100%;
 }
 
 .sort-list {
@@ -24,13 +35,14 @@
     list-style: none;
     margin: 0;
     padding: 1rem 0 0;
+    width: 100%;
 }
 
 .sort-list li {
     align-items: center;
     display: flex;
-    flex: 1 0 10%;
-    margin-right: 8px;
+    flex: 1 0 calc(20% - 16px);
+    margin: 0 8px 4px 0;
 }
 
 .sort-list li:last-child {
@@ -43,11 +55,23 @@
     border-radius: 2px;
     cursor: pointer;
     padding: 8px 12px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    width: calc(100% - 18px);
+}
+
+.sort-list .button--clear-filters {
+    color: var(--white);
+    background-color: var(--secondary-text-color);
+    width: 100%;
+}
+
+.sort-list .button--clear-filters:hover {
+    background: var(--primary-grayscale);
 }
 
 .sort-list .status-indicator {
-    background-color: #000;
+    background-color: var(--white);
+    border: solid 1px var(--black);
     border-radius: 50%;
     display: inline-block;
     height: 18px;
@@ -56,28 +80,49 @@
 }
 
 .researching .status-indicator {
+    border-color: transparent;
     background-color: rgba(0,54,196,0.75);
 }
 
 .pending .status-indicator {
+    border-color: transparent;
     background-color: rgba(228,205,14,1);
 }
 
 .approved .status-indicator {
+    border-color: transparent;
     background-color: rgba(29, 96, 29, 1);
 }
 
-button.cta--primary {
+.cta--primary {
+    align-items: center;
     background-color: var(--primary);
-    border-radius: 3px;
+    border-radius: 22px;
     color: var(--white);
+    cursor: pointer;
+    display: flex;
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 6px 18px;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    max-height: 2.5rem;
+    padding: 6px 10px;
     text-transform: uppercase;
 }
 
-button.cta--primary:hover {
-    background-color: var(--accent-color);
-    border-color: var(--primary);
+.cta--primary .icon {
+    display: inline-block;
+    height: 18px;
+    margin-left: 12px;
+    width: 18px;
+}
+
+.cta--primary .icon svg {
+    fill: var(--white);
+    height: 100%;
+    width: 100%;
+}
+
+.cta--primary:hover {
+    background-color: var(--secondary);
 }

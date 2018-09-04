@@ -10,8 +10,10 @@
     --tertiary-grayscale: #ecefef;
     --white: #fff;
     --off-white: #FCFDFD;
+    --black: #212121;
 
-    --primary-text-color:   #212121;
+
+    --primary-text-color:   var(--black);
     --secondary-text-color: #757575;
     --divider-color:        #BDBDBD;
 
