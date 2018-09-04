@@ -1,0 +1,10 @@
+footer {
+    background-color: var(--primary-grayscale);
+    border-top: solid 1px var(--border-default);
+    color: var(--off-white);
+}
+
+.attribution {
+    font-size: 0.75rem;
+    margin: 0.5rem auto;
+}

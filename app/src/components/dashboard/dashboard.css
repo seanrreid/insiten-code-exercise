@@ -1,0 +1,83 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.header--dashboard.wrapper {
+    background-color: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.dashboard .title--page {
+    margin: 0 auto;
+    padding: 1rem 1rem 0;
+}
+
+.sort-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0 0;
+}
+
+.sort-list li {
+    align-items: center;
+    display: flex;
+    flex: 1 0 10%;
+    margin-right: 8px;
+}
+
+.sort-list li:last-child {
+    justify-content: flex-end;
+}
+
+.sort-list button {
+    background-color: var(--white);
+    border: solid 1px var(--border-default);
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 8px 12px;
+    text-transform: capitalize
+}
+
+.sort-list .status-indicator {
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    margin-right: 8px;
+    width: 18px;
+}
+
+.researching .status-indicator {
+    background-color: rgba(0,54,196,0.75);
+}
+
+.pending .status-indicator {
+    background-color: rgba(228,205,14,1);
+}
+
+.approved .status-indicator {
+    background-color: rgba(29, 96, 29, 1);
+}
+
+button.cta--primary {
+    background-color: var(--primary);
+    border-radius: 3px;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 6px 18px;
+    text-transform: uppercase;
+}
+
+button.cta--primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--primary);
+}

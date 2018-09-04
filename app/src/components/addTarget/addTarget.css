@@ -1,0 +1,138 @@
+.editor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.editor h3 {
+    width: 100%;
+}
+
+.editor__wrapper {
+    border: solid 1px var(--divider-color);
+    border-radius: 4px;
+    flex: 1 0 100%;
+    max-width: 44rem;
+    padding: 1rem 2rem;
+}
+
+.editor .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.editor .form-group p {
+    margin: 1rem 0 0;
+}
+
+.editor p,
+.editor label {
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.editor ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.editor ul li {
+    display: flex;
+    flex: 1 1 calc(50% - 16px);
+    flex-wrap: wrap;
+}
+
+.editor ul li label {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.editor input[type=text] {
+    border-bottom: solid 1px var(--border-default);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1rem;
+    padding: 8px 12px;
+    width: 100%;
+}
+
+.editor input::-webkit-input-placeholder {
+    color: var(--secondary-text-color);
+}
+
+.editor__text {
+    border: solid 1px var(--divider-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    min-height: 12rem;
+    padding: 12px;
+    width: 100%;
+}
+
+.editor-button__save {
+    background-color: var(--secondary-text-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1rem;
+    height: auto;
+    line-height: 1;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+.editor-button__save:hover {
+    background-color: var(--primary);
+}
+
+.contacts,
+.revenue {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contacts .input-group,
+.revenue .input-group {
+    flex: 1 0 100%;
+    margin: 8px 0;
+}
+
+.revenue .input-group {
+    max-width: 400px;
+}
+
+.contacts .input-group label {
+    flex: 0 1 calc(50% - 8px);
+    margin: 0 4px;
+}
+
+.revenue .input-group label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.revenue input.simple-text {
+    border: solid 1px var(--border-default);
+    font-size: 1rem;
+    padding: 4px;
+    width: auto;
+}
+
+.revenue-amount::before {
+    content: "$"
+}
