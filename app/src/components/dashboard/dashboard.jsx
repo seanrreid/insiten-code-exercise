@@ -58,13 +58,18 @@ export default class Dashboard extends Component {
         })
     };
 
-    doRemoveTarget = (index) => {
+    doRemoveTarget = (id) => {
         const filteredTargets = this.state.filteredTargets.filter((x,i) => {
-            return (i !== index);
+            return (x.id !== id);
         });
 
+        const allFilteredTargets = this.state.allTargets.filter((x,i) => {
+            return (x.id !== id);
+        });
+
+
         this.setState({
-            allTargets: filteredTargets,
+            allTargets: allFilteredTargets,
             filteredTargets: filteredTargets
         });
     };
